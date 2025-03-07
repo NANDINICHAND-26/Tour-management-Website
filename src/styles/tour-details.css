@@ -1,0 +1,126 @@
+.tour_content img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.tour_info, .tour_reviews {
+    border-radius: 0.5rem;
+    border: 1px solid rgb(229, 231, 235);
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour_info h2 {
+    font-size: 2rem;
+    color: var(--heading-color);
+}
+
+.tour_info span {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.tour_info span i {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+}
+
+.tour_extra-details {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.tour_info h5 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--heading-color);
+}
+
+.tour_info p {
+    line-height: 1.7;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.rating_group span {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.rating_group span:hover {
+    color: var(--primary-color);
+}
+
+.tour_reviews h4 {
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+}
+
+.review_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem;
+    border-radius: 2rem;
+    border: 1px solid var(--secondary-color);
+}
+
+.review_input input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.review_input input:focus {
+    outline: none;
+}
+
+.review_item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.review_item img {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user_reviews {
+    margin-top: 2.5rem;
+}
+
+.review_item h5 {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+}
+
+.review_item p {
+    font-size: 0.9rem;
+    color: var(--text-color);
+}
+
+.review_item span i {
+    font-size: 1.3rem;
+    color: var(--secondary-color);
+}
+
+.review_item span {
+    font-weight: 500;
+}
